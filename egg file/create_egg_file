@@ -1,0 +1,11 @@
+python setup.py bdist_egg
+python setup.py bdist_wheel
+
+most import part is folder structue :
+packaging_example
+├── LICENSE
+├── README.md
+├── example_pkg
+│   └── __init__.py
+├── setup.py
+└── tests
